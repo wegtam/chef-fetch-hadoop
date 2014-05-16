@@ -1,0 +1,15 @@
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+unsetopt beep
+
+zstyle :compinstall filename ~/.zshrc
+
+autoload -Uz compinit
+compinit
+
+# Set some variables for hadoop usage.
+export JAVA_HOME=<%= @java_home %>
+export HADOOP_HOME=<%= @hadoop_home %>
+export PATH=${HADOOP_HOME}/bin:${HADOOP_HOME}/sbin:$PATH
+
