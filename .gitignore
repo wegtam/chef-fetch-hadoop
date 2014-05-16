@@ -1,0 +1,30 @@
+##### Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+##### Windows
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+##### Other
+.vagrant
+Berksfile.lock
+Gemfile.lock
+.bundle
+.cache
+.kitchen
+bin
+.kitchen.local.yml
+.coverage
