@@ -4,7 +4,7 @@ maintainer_email 'devops@wegtam.com'
 license          'Apache 2.0'
 description      'Installs/Configures Hadoop in pseudo distributed mode.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.9.6'
+version          '0.9.7'
 
 depends 'tar'
 depends 'zsh'
