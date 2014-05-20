@@ -5,7 +5,7 @@ user. Some **very** basic configuration is done.
 
 ## Requirements
 
-You should have `java` installed and the cookbook assumes a zsh on the
+You should have `java` installed and the cookbook assumes a `zsh` on the
 system for the user setup.
 
 ## Attributes
